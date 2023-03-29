@@ -29,8 +29,8 @@ const Hero = () => {
         <p className="max-w-[1000px] font-normal text-base lg:text-xl 2xl:text-2xl tracking-wide">
           We offers a variety of resources and community support to help
           individuals of all fitness levels succeed in their fitness journey.
-          Whether you're a beginner or an experienced fitness enthusiast, we're
-          here to support and inspire you on your fitness journey.
+          Whether you&apos;re a beginner or an experienced fitness enthusiast,
+          we&apos;re here to support and inspire you on your fitness journey.
         </p>
         <button className="bg-gradient-to-r from-yellow-500 to-orange-600 text-lg font-semibold px-7 py-3 tracking-wider hover:scale-105 transition duration-300">
           JOIN NOW
