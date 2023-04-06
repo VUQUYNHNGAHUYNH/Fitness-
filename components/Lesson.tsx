@@ -32,14 +32,14 @@ const Lesson = () => {
   return (
     <div
       id="lessons"
-      className="w-full h-screen mx-auto flex flex-col justify-center items-center"
+      className="w-full h-screen mx-auto flex flex-col justify-center items-center mt-32 py-24"
     >
-      <div className="relative flex flex-col gap-12 justify-center items-center w-4/5">
+      <div className="flex flex-col gap-12 justify-center items-center w-4/5">
         <h1 className="text-orange-600 text-4xl md:text-5xl xl:text-6xl font-bold uppercase tracking-wider font-averia">
           Our Classes
         </h1>
         <div className="h-[420px] w-full overflow-y-hidden overflow-x-auto">
-          <ul className="h-[2800px] whitespace-nowrap mx-4">
+          <ul className="h-[2800px] w-full whitespace-nowrap mx-4">
             {classes.map((item, index) => (
               <li key={index} className="relative inline-block mx-4">
                 <div className="absolute -bottom-8 right-0 z-10 bg-gray-200 space-y-2 px-6 py-3">

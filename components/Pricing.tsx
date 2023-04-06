@@ -99,8 +99,8 @@ export const Pricing = () => {
         </div>
       </div>
       {/* Continuous Marquee Animation. */}
-      <div className="flex overflow-x-hidden">
-        {[...Array(12)].map((_, i) => (
+      <div className="flex overflow-x-hidden w-full">
+        {[...Array(5)].map((_, i) => (
           <div
             key={i}
             className="animate-marquee flex py-3 justify-center items-center whitespace-nowrap text-orange-500"

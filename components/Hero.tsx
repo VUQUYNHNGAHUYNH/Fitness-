@@ -4,10 +4,10 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="flex items-center justify-center h-screen bg-fixed bg-center bg-cover landing-img"
+      className="flex items-center justify-center h-screen w-full bg-fixed bg-center bg-cover landing-img"
     >
       {/* overlay */}
-      <div className="absolute inset-0 bg-gray-900/70 z-10" />
+      <div className="absolute inset-0 bg-gray-900/70 z-10 w-full" />
       {/* text */}
       <motion.div
         initial="hidden"
